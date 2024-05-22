@@ -1,11 +1,11 @@
 # Net&Sys Assignment: Running Containers for Application Development
 
-Group Name: __Fill your team name__. 
+Group Name: NetRascal. 
 
 Team Mates:
-1. __Fill name__ and __matric no__
-2. __Fill name__ and __matric no__
-3. __Fill name__ and __matric no__
+1. Mohamad Syafiq Asyraf Bin Bharudin
+2. Ammar Hazir Bin Annas
+3. Amir Hamzah Bin Ibrahim
 
 ## Rules
 1. You are allowed to have **3 group** members.
@@ -22,8 +22,8 @@ Team Mates:
 
 ***Questions:***
 
-1. What is the link of the fork Net&Sys Assignment in your repository. ***(1 mark)*** __Fill answer here__.
-2. How many files and folders are in this repository. ***(1 mark)*** __Fill answer here__.
+1. What is the link of the fork Net&Sys Assignment in your repository. ***(1 mark)*** ***<p>[Forked repo in binaryassassins project repo](https://github.com/binaryassasins/NatSysProject.git)</p>***
+2. How many files and folders are in this repository. ***(1 mark)*** ***<p>1 folder with 6 png files (images) and 1 markdown file.</p>***
 
 
 ## Exploring github codespaces
@@ -55,9 +55,9 @@ Team Mates:
 
 ***Questions:***
 
-1. What is default OS used to run the virtual environment for codespaces. ***(1 mark)*** __Fill answer here__.
+1. What is default OS used to run the virtual environment for codespaces. ***(1 mark)*** ***<p>Ubuntu Linux.</p>***
 2. What are the two options of RAM, disk and vcpu configuration you can have in running codespaces . ***(1 mark)*** __Fill answer here__.
-3. Why must we commit and sync our current work on source control? ***(1 mark)*** __Fill answer here__.
+3. Why must we commit and sync our current work on source control? ***(1 mark)*** ***<p>By committing and syncing work regularly, we can maintain a robust, collaborative, and safe development environment. This allows us to track the evolution of our codes, changes made, trigger automated tests and deployments ensuring that our code is continuously tested and integrated with other changes (CI/CD pipelines), offers branching feature which allows us to develop new ideas without affecting codebase (master branch) as well as creating backup of our changes if something wrong happen.</p>***
 
 ## Exploring the Terminal
 
