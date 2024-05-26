@@ -1,11 +1,11 @@
 # Net&Sys Assignment: Running Containers for Application Development
 
-Group Name: NetRascal. 
+Group Name: NetRascal 
 
 Team Mates:
-1. Mohamad Syafiq Asyraf Bin Bharudin
-2. Ammar Hazir Bin Annas
-3. Amir Hamzah Bin Ibrahim
+1. Mohamad Syafiq Asyraf Bin Bharudin (2116239)
+2. Ammar Hazir Bin Annas (2116043)
+3. Amir Hamzah Bin Ibrahim ()
 
 ## Rules
 1. You are allowed to have **3 group** members.
