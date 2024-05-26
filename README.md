@@ -56,7 +56,7 @@ Team Mates:
 ***Questions:***
 
 1. What is default OS used to run the virtual environment for codespaces. ***(1 mark)*** ***<p>Ubuntu Linux.</p>***
-2. What are the two options of RAM, disk and vcpu configuration you can have in running codespaces . ***(1 mark)*** __Fill answer here__.
+2. What are the two options of RAM, disk and vcpu configuration you can have in running codespaces . ***(1 mark)*** <strong><p>4-core 8GB RAM & 32GB Disk - 8-core 16GB RAM & 64GB Disk</p></strong>
 3. Why must we commit and sync our current work on source control? ***(1 mark)*** ***<p>By committing and syncing work regularly, we can maintain a robust, collaborative, and safe development environment. This allows us to track the evolution of our codes, changes made, trigger automated tests and deployments ensuring that our code is continuously tested and integrated with other changes (CI/CD pipelines), offers branching feature which allows us to develop new ideas without affecting codebase (master branch) as well as creating backup of our changes if something wrong happen.</p>***
 
 ## Exploring the Terminal
@@ -74,23 +74,23 @@ codespace
 
 Look at the TERMINAL tab. Run the following commands and provide the output here. 
 
-1. Run the command **pwd** . ***(1 mark)*** __Fill answer here__.
-2. Run the command **cat /etc/passwd** . ***(1 mark)*** __Fill answer here__.
-3. Run the command **df** . ***(1 mark)*** __Fill answer here__.
-4. Run the command **du** . ***(1 mark)*** __Fill answer here__.
-5. Run the command **ls** . ***(1 mark)*** __Fill answer here__.
-6. Run the command **ls -asl** . ***(1 mark)*** __Fill answer here__.
-7. Run the command **free -h** . ***(1 mark)*** __Fill answer here__.
-8. Run the command **cat /proc/cpuinfo** . ***(1 mark)*** __Fill answer here__.
-9. Run the command **top** and type **q** to quit. ***(1 mark)*** __Fill answer here__.
-10. Run the command **uname -a**. ***(1 mark)*** __Fill answer here__.
-11. What is the available free memory in the system. ***(1 mark)*** __Fill answer here__.
-12. What is the available disk space mounted on /workspace. ***(1 mark)*** __Fill answer here__.
-13. Name the version and hardware architecture of the linux Virtual environment. ***(1 mark)*** __Fill answer here__.
-14. What is the difference between **ls** vs **ls -asl**. ***(1 mark)*** __Fill answer here__.
-15. What is the TLB size of the Virtual CPU. ***(1 mark)*** __Fill answer here__.
-16. What is the CPU speed of the Virtual CPU. ***(1 mark)*** __Fill answer here__.
-17. What is the top running process that consumes the most CPU cycles. ***(1 mark)*** __Fill answer here__.
+1. Run the command **pwd** . ***(1 mark)*** <img src="./images/pwd.png">.
+2. Run the command **cat /etc/passwd** . ***(1 mark)*** <img src="./images/passwd.png">
+3. Run the command **df** . ***(1 mark)*** <img src="./images/df.png">
+4. Run the command **du** . ***(1 mark)*** <img src="./images/du1.png"><img src="./images/du2.png">
+5. Run the command **ls** . ***(1 mark)*** <img src="./images/ls.png">
+6. Run the command **ls -asl** . ***(1 mark)*** <img src="./images/ls-asl.png">
+7. Run the command **free -h** . ***(1 mark)*** <img src="./images/free-h.png">
+8. Run the command **cat /proc/cpuinfo** . ***(1 mark)*** <img src="./images/cpuinfo1.png"><img src="./images/cpuinfo2.png"><img src="./images/cpuinfo3.png"><img src="./images/cpuinfo4.png">
+9. Run the command **top** and type **q** to quit. ***(1 mark)*** <img src="./images/top.png">
+10. Run the command **uname -a**. ***(1 mark)*** <img src="./images/uname-a.png">
+11. What is the available free memory in the system. ***(1 mark)*** <strong><p>4.81Gi</p></strong>
+12. What is the available disk space mounted on /workspace. ***(1 mark)*** <strong><p>14627556</p></strong>
+13. Name the version and hardware architecture of the linux Virtual environment. ***(1 mark)*** <strong><p>Version: #22~22.04.1-Ubuntu SMP<br>Arch: x86_64</p></strong>
+14. What is the difference between **ls** vs **ls -asl**. ***(1 mark)*** <strong><p>ls: list the directory contents<br>ls -asl: list directory contents including dot files (.) together with their allocated size, in blocks and print them using a long listing format</p></strong>
+15. What is the TLB size of the Virtual CPU. ***(1 mark)*** <strong><p>2560 4K pages</p></strong>
+16. What is the CPU speed of the Virtual CPU. ***(1 mark)*** <strong><p>2663.776MHz</p></strong>
+17. What is the top running process that consumes the most CPU cycles. ***(1 mark)*** <strong><p>node</p></strong>
 
 ## Running your own container instance.
 
@@ -150,8 +150,8 @@ f65be1987f84   debian    "bash"    19 minutes ago   Exited (137) 18 seconds ago 
 
 ***Questions:***
 
-1. Are files in the container persistent. Why not?. ***(1 mark)*** __Fill answer here__.
-2. Can we run two, or three instances of debian linux? . ***(1 mark)*** __Fill answer here__.
+1. Are files in the container persistent. Why not?. ***(1 mark)*** <strong><p>Containers use ephemeral storage (by default), which means the file system inside the container is temporary. When the container is removed, all the data stored in the container's file system is also deleted.</p></strong>
+2. Can we run two, or three instances of debian linux? . ***(1 mark)*** <strong><p>Yes</p></strong>
 
 ## Running your own container with persistent storage
 
@@ -170,14 +170,14 @@ At the terminal, create a new directory called **myroot**, and run a instance of
 
 ***Questions:***
 
-1. Check the permission of the files created in myroot, what user and group is the files created in docker container on the host virtual machine? . ***(2 mark)*** __Fill answer here__.
+1. Check the permission of the files created in myroot, what user and group is the files created in docker container on the host virtual machine? . ***(2 mark)*** <strong><p>user: root<br>group: root</p></strong>
 2. Can you change the permission of the files to user codespace.  You will need this to be able to commit and get points for this question. ***(2 mark)***
 ```bash
 //use sudo and chown
 sudo chown -R codespace:codespace myroot
 
 ```
-*** __Fill answer here__.***
+<img src="images/chown.png">
 
 ## You are on your own, create your own static webpage
 
@@ -203,9 +203,9 @@ docker run --detach -v /workspaces/OSProject/webpage:/usr/local/apache2/htdocs/ 
 
 ***Questions:***
 
-1. What is the permission of folder /usr/local/apache/htdocs and what user and group owns the folder? . ***(2 mark)*** __Fill answer here__.
-2. What port is the apache web server running. ***(1 mark)***
-3. What port is open for http protocol on the host machine? ***(1 mark)***
+1. What is the permission of folder /usr/local/apache/htdocs and what user and group owns the folder? . ***(2 mark)*** <strong><p>Permission: drwxrwxrwx+<br>User: 1000 (refers to codespace)<br>Group: 1000 (refers to codespace)</p></strong>
+2. What port is the apache web server running. ***(1 mark)*** <strong><p>8080</p></strong>
+3. What port is open for http protocol on the host machine? ***(1 mark)*** <strong><p>80</p></strong>
 
 ## Create SUB Networks
 
@@ -224,11 +224,11 @@ docker run -itd --net rednet --name c2 busybox sh
 ```
 ***Questions:***
 
-1. Describe what is busybox and what is command switch **--name** is for? . ***(2 mark)*** __Fill answer here__.
-2. Explore the network using the command ```docker network ls```, show the output of your terminal. ***(1 mark)***
-3. Using ```docker inspect c1``` and ```docker inspect c2``` inscpect the two network. What is the gateway of bluenet and rednet.? ***(1 mark)***
-4. What is the network address for the running container c1 and c2.
-5. Using the command ```docker exec c1 ping c2```, which basically issue a ping from container c1 to c2. Are you able to ping? Show your output . ***(1 mark)***
+1. Describe what is busybox and what is command switch **--name** is for? . ***(2 mark)*** <strong><p>It is a software suite that provides several Unix utilities in a single executable file. It is often referred to as "The Swiss Army Knife of Embedded Linux" due to its versatility and compact size. BusyBox combines tiny versions of many common UNIX utilities into a single small executable, making it ideal for environments with limited resources, such as embedded systems, minimal Docker containers, and bootable rescue disks. Command --name is used to specify a name of an instance.</p></strong>
+2. Explore the network using the command ```docker network ls```, show the output of your terminal. ***(1 mark)*** <img src="images/docker-net-ls.png">
+3. Using ```docker inspect c1``` and ```docker inspect c2``` inscpect the two network. What is the gateway of bluenet and rednet.? ***(1 mark)*** <strong><p>c1: 172.18.0.1<br>c2: 172.19.0.1</p></strong>
+4. What is the network address for the running container c1 and c2. <strong><p>c1: 172.18.0.0<br>c2: 172.19.0.0</p></strong>
+5. Using the command ```docker exec c1 ping c2```, which basically issue a ping from container c1 to c2. Are you able to ping? Show your output . ***(1 mark)*** <strong><p>Before Network Bridging: <img src="images/docker-ping-badaddr.png">After Network Bridging: <img src="images/docker-ping-bridged.png"></p></strong>
 
 ## Bridging two SUB Networks
 1. Let's try this again by creating a network to bridge the two containers in the two subnetworks
