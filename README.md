@@ -5,7 +5,7 @@ Group Name: NetRascal
 Team Mates:
 1. Mohamad Syafiq Asyraf Bin Bharudin (2116239)
 2. Ammar Hazir Bin Annas (2116043)
-3. Amir Hamzah Bin Ibrahim ()
+3. Amir Hamzah Bin Ibrahim (2116513)
 
 ## Rules
 1. You are allowed to have **3 group** members.
